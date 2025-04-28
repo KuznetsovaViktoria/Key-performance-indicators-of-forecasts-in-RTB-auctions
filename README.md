@@ -13,6 +13,7 @@
 - mix-features-catboost.ipynb и mix_features_catboost_results.txt - эксперименты по подбору комбинаций признаков для CatBoost с результатами
 - course-work-catboost-comb-features-best.ipynb - лучшая версия CatBoost с учетом комбинаций признаков
 - hyperparameter_optimization.ipynb и hyperparameters_optimization_results.txt - подбор гиперпараметров для CatBoost с результатами
+- папка mix_features_catboost_experiments - эксперименты по подбору комбинаций признаков для повышения качетсва CatBoost
 
 - simple_net_all_features.ipynb - обучение простейшей нейронной сети на всех исходных признаках и подсчет значимости признаков для модели
 - simple_net_select_features.ipynb - обучение простейшей нейронной сети на самых значимых признаках для CatBoost и подсчет значимости признаков
