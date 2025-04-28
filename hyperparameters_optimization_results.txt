@@ -1,0 +1,7 @@
+
+ Best Parameters 
+{"depth": 4, "iterations": 500, "l2_leaf_reg": 3, "learning_rate": 0.01}
+ Best ROC AUC Score 
+0.8885604061702361
+ Test ROC AUC Score 
+0.6662055836717062

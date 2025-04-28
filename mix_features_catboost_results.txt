@@ -1,0 +1,121 @@
+Run 1/10, ROC AUC: 0.5902, Added features: ['city_id__creative_id', 'region_id__creative_id', 'ad_slot_format__part_of_day', 'ad_slot_visibility__is_male', 'ad_slot_visibility__weekend'], feature_importances: [ 1.09709975  1.01844476  2.46606008  3.40463039  7.64920036 11.75526788
+  1.94181021 31.35978672  1.47040101 12.03065144  7.52429042  1.47509174
+  0.09110899  4.11443121  1.64413544  1.12305995  0.84794712  1.10072465
+  7.8858579 ]
+  
+ Run 1/10, ROC AUC: 0.6032, Added features: ['city_id__creative_id', 'region_id__creative_id', 'ad_slot_format__part_of_day', 'ad_slot_visibility__is_male', 'ad_slot_visibility__weekend'], feature_importances: [ 0.80079905  1.18836486  1.77616183  2.17745803  7.47462571  9.90540622
+  0.47893636 28.19357426  0.85316906 21.96219771  3.7564188   1.06064318
+  0.07984133  7.32285915  1.09471961  1.33063145  1.68160079  2.89035583
+  5.97223677]
+  
+ Run 2/10, ROC AUC: 0.6928, Added features: ['city_id__weekday', 'city_id__ad_slot_format', 'weekend__browser', 'region_id__is_in_market', 'browser__is_male'], feature_importances: [ 0.13912821  0.81750355  5.00844571  3.10668532  8.40722013 10.22920121
+  1.93265084 29.5616084   1.10259414 18.05965381  1.31920082  0.45641481
+  0.11255008  5.35252937  0.          1.9252263   7.2009921   1.45398562
+  3.8144096 ]
+  
+ Run 3/10, ROC AUC: 0.6460, Added features: ['advertiser_id__browser', 'region_id__advertiser_id', 'region_id__creative_id', 'region_id__is_in_market', 'ad_slot_visibility__weekday'], feature_importances: [ 0.22529859  0.99006529  2.52597622  2.92704552  7.13032741  9.12320302
+  1.376438   27.94958933  2.79017176 23.39654362  3.02289144  1.86260531
+  0.11225191  6.35844068  1.95732864  1.9769343   0.          0.7950558
+  5.47983315]
+  
+ Run 4/10, ROC AUC: 0.6872, Added features: ['ad_slot_visibility__os', 'weekday__os', 'is_male__is_in_market', 'region_id__creative_id', 'weekend__is_in_market'], feature_importances: [1.51624119e+00 1.13429772e+00 2.25178480e+00 3.27802705e+00
+ 6.46052982e+00 1.01377301e+01 1.64929196e+00 2.13880744e+01
+ 8.55049990e-02 1.73630808e+01 2.81782486e+00 6.34105882e-01
+ 1.56857175e-02 5.57503417e+00 5.68648708e+00 1.33612383e+01
+ 1.06556624e+00 0.00000000e+00 5.57949492e+00]
+ 
+ Run 5/10, ROC AUC: 0.6360, Added features: ['ad_slot_visibility__advertiser_id', 'weekend__browser', 'advertiser_id__os', 'ad_slot_visibility__weekend', 'part_of_day__weekday'], feature_importances: [ 1.04533406  0.          2.40488508  3.28828804  6.03797167  8.81937942
+  0.93393046 22.3665096   3.4659479  21.32272402  3.00847624  1.65876898
+  0.18234561  6.14613606  1.93096826  4.66189922  0.72299548  4.06828037
+  7.93515955]
+  
+ Run 6/10, ROC AUC: 0.6735, Added features: ['browser__is_male', 'ad_slot_format__part_of_day', 'region_id__city_id', 'city_id__browser', 'advertiser_id__browser'], feature_importances: [ 1.06930288  0.          4.26439918  2.67631495  9.21455043  8.09753787
+  0.88643439 27.94106574  2.07513268 27.09974383  1.60172809  0.52264365
+  0.10196135  5.55116708  3.59447962  2.07010052  1.48580243  0.
+  1.7476353 ]
+  
+ Run 7/10, ROC AUC: 0.6410, Added features: ['creative_id__part_of_day', 'ad_slot_format__part_of_day', 'city_id__os', 'ad_slot_visibility__weekday', 'city_id__ad_slot_format'], feature_importances: [ 0.9449195   0.93323747  2.56251894  2.67988922  7.78135473  8.76255114
+  0.7738286  24.96757464  1.38446    24.56874188  4.70118321  1.97393794
+  0.33107436  7.687823    2.79754893  1.65938032  0.15450549  5.33547062
+  0.        ]
+  
+ Run 1/10, ROC AUC: 0.6423, Added features: ['city_id__creative_id', 'region_id__creative_id', 'ad_slot_format__part_of_day', 'ad_slot_visibility__is_male', 'ad_slot_visibility__weekend'], feature_importances: [ 1.56306613  1.52132147  1.43451001  2.29674203  4.23674676 13.15256452
+  0.7932698  29.2551555   2.42460989 11.1450019   7.54805681  0.37530197
+  0.26495274  4.89275042  2.49930069  0.82513225  4.20823128  4.55843758
+  7.00484824]
+
+ Run 2/10, ROC AUC: 0.6901, Added features: ['city_id__weekday', 'city_id__ad_slot_format', 'weekend__browser', 'region_id__is_in_market', 'browser__is_male'], feature_importances: [ 0.51914777  1.35590804  9.30377128  4.44121469  5.93526561 12.71461966
+  2.66593629 27.26019623  3.14855197  7.3182311   1.52319626  0.36774197
+  0.17298325  4.66200383  0.          0.86933009 11.41073093  1.64837601
+  4.68279505]
+
+ Run 3/10, ROC AUC: 0.6526, Added features: ['advertiser_id__browser', 'region_id__advertiser_id', 'region_id__creative_id', 'region_id__is_in_market', 'ad_slot_visibility__weekday'], feature_importances: [ 1.18212071  1.10086307  6.89658753  4.35626648  4.46636153 12.32173191
+  2.27603796 26.06847337  4.34213208 12.3423734   7.19095635  1.39864074
+  0.32132175  5.53096862  3.92906338  1.14729937  0.          1.18411198
+  3.94468975]
+
+ Run 1/8, ROC AUC: 0.6385, Added features: ['creative_id__is_in_market', 'browser__is_male', 'is_male__is_in_market', 'creative_id__weekday'], feature_importances: [1.82069229e+00 0.00000000e+00 8.58768481e+00 4.05708901e+00
+ 2.69746976e+00 1.21525742e+01 3.14315158e+00 2.49419054e+01
+ 6.57833309e+00 1.54136811e+01 5.37303635e+00 7.07067257e-01
+ 1.32962996e-01 6.68395586e+00 0.00000000e+00 3.90476020e+00
+ 1.99098739e-02 3.78572628e+00]
+
+ Run 2/8, ROC AUC: 0.5990, Added features: ['ad_slot_visibility__advertiser_id', 'weekday__is_male', 'advertiser_id__os', 'weekday__os'], feature_importances: [ 1.82504047  0.          5.5181907   3.80379651  4.12672078 11.88128822
+  2.5642596  17.23084874  5.53619562 13.2443429   5.92640551  0.21025968
+  0.26647779  5.88559558  3.39940277  9.27927675  1.18994611  8.11195226]
+
+ Run 3/8, ROC AUC: 0.6640, Added features: ['region_id__os', 'ad_slot_visibility__is_male', 'advertiser_id__weekday', 'region_id__weekend'], feature_importances: [ 0.5976103   0.          3.49120067  4.6959958   2.84092627  7.95828205
+  1.88375894 14.20538044  3.71809888 15.83846807  5.47439067  0.56815477
+  0.1642394   6.50280305  2.74470793  4.84916567 24.23727179  0.22954531]
+
+ Run 1/8, ROC AUC: 0.6260, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'part_of_day__weekday', 'city_id__part_of_day', 'advertiser_id__weekend', 'part_of_day__weekend'], feature_importances: [ 1.52619416  7.21680627  4.42347048  4.88274271  6.09766334  0.76110416
+ 24.37000332  1.44726909  8.1313996   8.34774201  1.41941762  5.46332911
+  9.01046777  0.         15.32586096  1.57652937]
+
+ Run 2/8, ROC AUC: 0.6418, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'city_id__part_of_day', 'ad_slot_format__os', 'advertiser_id__part_of_day', 'creative_id__part_of_day'], feature_importances: [ 1.21857919  8.48824735  3.14528921  4.76905086 10.43998772  0.6346333
+ 25.94655722  4.38847465  8.63382475  5.15732496  1.32561173  5.02170264
+  0.         13.48435864  5.2132606   2.13309718]
+
+ Run 3/8, ROC AUC: 0.6282, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'weekday__is_in_market', 'os__is_in_market', 'city_id__advertiser_id', 'ad_slot_format__is_in_market'], feature_importances: [ 1.23965312  8.42089449  2.95529304  6.06878479 14.42427567  2.30557541
+ 20.41078426  4.64151871 11.60870989  6.59150895  0.          5.86239338
+ 10.24898987  3.97714487  0.09913357  1.14533999]
+
+ Run 4/8, ROC AUC: 0.6579, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'ad_slot_format__os', 'browser__is_in_market', 'creative_id__is_in_market', 'creative_id__advertiser_id'], feature_importances: [ 1.01187254  7.9538832   3.42564273  0.39303209 14.91872244  2.86352487
+ 29.47175105  5.66343066 12.67890597  2.92222233  0.54304842  6.19978535
+  3.68134323  3.20067667  0.33471271  4.73744573]
+
+ Run 5/8, ROC AUC: 0.6544, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'part_of_day__weekday', 'weekday__weekend', 'browser__is_in_market', 'creative_id__weekend'], feature_importances: [ 0.          7.76148784  4.77285152  2.60734742 12.15844345  1.08255351
+ 14.14834002  4.35906438 14.47681696  5.52275277  0.47093066  6.27005921
+  9.3502827   9.62844797  3.72529766  3.66532394]
+
+ Run 1/8, ROC AUC: 0.6527, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'ad_slot_visibility__creative_id', 'city_id__weekday', 'creative_id__weekend', 'ad_slot_visibility__os'], feature_importances: [ 1.05596926  6.12215976  3.78783812  4.02463426 12.15489567  1.85367461
+ 26.64763332  5.79056025 13.08588794  7.45684348  1.2254733   5.70612791
+  2.88136817  0.          1.53770047  6.6692335 ]
+
+ Run 2/8, ROC AUC: 0.6109, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'ad_slot_format__advertiser_id', 'ad_slot_visibility__ad_slot_format', 'weekday__weekend', 'ad_slot_visibility__advertiser_id'], feature_importances: [ 0.          2.72104878  0.10268396  2.85901611  6.53350917  2.15242747
+ 11.70782283  5.6305492  17.10983393  6.26771222  1.38404484  6.03572097
+ 10.58624554  7.81689483 16.8658203   2.22666985]
+
+ Run 3/8, ROC AUC: 0.6290, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'ad_slot_format__weekend', 'ad_slot_format__weekday', 'ad_slot_visibility__weekend', 'creative_id__weekend'], feature_importances: [ 0.          2.66500321  1.99280787  3.1010397  15.21195528  2.10156884
+ 28.37765008  0.99885725 11.41221234  8.52237622  1.13983398  6.55029938
+  3.37481964  3.38530481  9.4905457   1.6757257 ]
+
+ Run 4/8, ROC AUC: 0.6208, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'ad_slot_visibility__weekend', 'advertiser_id__browser', 'creative_id__part_of_day', 'ad_slot_format__creative_id'], feature_importances: [ 0.          1.86293353  4.25694148  3.17839041 14.11660071  1.64488041
+ 29.61160533  2.61676754 11.12959339  7.65000364  1.15735527  7.16355137
+ 10.19059125  1.15164378  0.          4.26914188]
+
+ Run 1/8, ROC AUC: 0.6415, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'city_id__ad_slot_format', 'city_id__weekday', 'city_id__part_of_day', 'ad_slot_format__is_in_market'], feature_importances: [ 0.          8.1607835   3.24881787  6.92152143 14.0504878   2.90434152
+ 27.66738779  5.09073554 14.00756755  7.23690224  0.18878014  5.57299287
+  2.72624631  0.          0.          2.22343542]
+
+ Run 2/8, ROC AUC: 0.6446, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'weekday__os', 'ad_slot_visibility__weekend', 'creative_id__weekend', 'ad_slot_format__creative_id'], feature_importances: [ 1.48572452  2.22262395  3.80313492  3.15702049 14.1683859   3.17084935
+ 24.08335537  2.47336265  8.23497403  6.66718266  1.63216639  5.73432589
+  9.02872052  8.39952888  1.47689526  4.26174922]
+
+ Run 3/8, ROC AUC: 0.6499, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'advertiser_id__os', 'os__browser', 'city_id__weekday', 'part_of_day__weekday'], feature_importances: [ 2.29147476  8.56915258  3.94081621  7.94490698 10.89911512  1.04621502
+ 23.56435168  2.95299143  9.34056695  9.27463561  1.57211849  5.05838949
+  4.13051091  0.26213438  0.          9.15262038]
+
+ Run 4/8, ROC AUC: 0.6450, all features: ['city_id', 'ad_slot_visibility', 'ad_slot_format', 'creative_id', 'advertiser_id', 'part_of_day', 'weekday', 'weekend', 'os', 'browser', 'is_in_market', 'ad_slot_screen_share', 'creative_id__os', 'ad_slot_visibility__creative_id', 'weekday__weekend', 'city_id__browser'], feature_importances: [ 1.54989402  6.86927241  3.84355801  4.5870013  13.8271054   2.7177935
+ 16.65266665  4.77781702 12.42311015  8.38089386  1.58664861  5.86255652
+  1.19016189  4.50253259 11.22898807  0.        ]
