@@ -4,9 +4,11 @@
 
 Тема: Ключевые показатели эффективности прогнозов в RTB-аукционах
 
+Лучший результат ROC AUC = 0.71 показала простейшая полносвязная нейронная сеть SimpleNet (simple_net_select_features.ipynb) 
+
 Содержимое файлов:
 
-- prepare_data.ipynb, feature_production.ipynb, feature_production_2.ipynb, feature_production_3.ipynb, add_user_tags_to_test.ipynb - подготовка датасета [iPinYou](https://contest.ipinyou.com/) для обучения моделей
+- prepare_data.ipynb, feature_production.ipynb, feature_production_2.ipynb, feature_production_3.ipynb, add_user_tags_to_test.ipynb - подготовка датасета [iPinYou](https://contest.ipinyou.com/) для обучения моделей. Скрипты надо выполнить поочередно, чтобы получить данные для обучение моделей в скриптах ниже.
 
 - catboost_all_features.ipynb - обучение CatBoost на всех исходных признаках и подсчет значимости признаков для модели
 - catboost_selected_features.ipynb -  обучение CatBoost только на самых значимых признаках и подсчет значимости признаков
